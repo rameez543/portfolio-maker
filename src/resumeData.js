@@ -1,43 +1,43 @@
 let resumeData = {
     "imagebaseurl":"https://picsum.photos/200/300",
-    "name": "Rameez Shahsad",
-    "role": "Fullstack developer",
-    "linkedinId":"https://www.linkedin.com/in/rameez-shahsad/",
-    "email":"merameez543@gmail.com",
-    "roleDescription": `Experienced with a demonstrated history of working in the information technology and services industry. Skilled in JavaScript, Reactjs, Nodejs, HTML and CSS . `,
+    "name": "Ramshad N K",
+    "role": "Fullstack Javascript Engineer",
+    "linkedinId":"https://www.linkedin.com/in/ramshad-n-k-3471bba2/",
+    "email":"nk.ramshad8@gmail.com",
+    "roleDescription": `Experienced with a demonstrated history of working in the information technology and services industry. Skilled in JavaScript, ReactJS, Redux , NodeJS, Material UI, HTML and CSS . `,
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rameez-shahsad/",
+          "url":"https://www.linkedin.com/in/ramshad-n-k-3471bba2/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"https://github.com/rameez543",
+          "url":"https://github.com/ramshadnk",
           "className":"fa fa-github"
         },
         {
           "name":"Email",
-          "url":"mailto:merameez543@gmail.com",
+          "url":"mailto:nk.ramshad8@gmail.com",
           "className":"fa fa-envelope"
         },
       ],
-    "aboutme":"I am currently working as full stack developer in ceegees software solutions",
+    "aboutme":"I am currently working as full stack javascript developer in CeeGees software solutions",
     "address":"Bangalore,India",
-    "website":"https://rameez543.github.io",
+    "website":"https://github.com/ramshadnk",
     "education":[
       {
-        "UniversityName":"Government Engineering college Wayanad",
-        "specialization":"Btech in Computer science and Engineering",
+        "UniversityName":"Government Engineering College, Wayanad",
+        "specialization":"B.Tech in Computer science and Engineering",
         "MonthOfPassing":"March",
-        "YearOfPassing":"2018",
+        "YearOfPassing":"2016",
         
       },
      
     ],
     "work":[
       {
-        "CompanyName":"ceegees software solution",
+        "CompanyName":"CeeGees Software Solutions",
         "specialization":"Fullstack developer",
         "MonthOfLeaving":"Nov",
         "YearOfLeaving":"2018",
@@ -63,6 +63,10 @@ let resumeData = {
         "skillname": "Expressjs",
         level: 62
       },
+      {
+        "skillname": "Material UI",
+        level: 75
+      },
       ,
       {
         "skillname": "HTML5",
@@ -75,35 +79,19 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"Shopg",
-        "description":`Revamped the whole app according to the customer's need
-        integrated SMS and Push notification
+        "name":"Logisure",
+        "description":`Created middleware to transform thousands of existing invoices to a new Logisure format.we have leveraged AWS SQS,SWS S3, AWS SES in the process 
         created RESTful api endpoints
         Tools:
-        Reactjs,Nodejs,Expressjs,reduxjs,Postgresql,HTML5,CSS3,NGINX,firebase,Aws`,
-        "imgurl":"images/shop.jpg"
+        Nodejs,AWS,Expressjs,NGINX`,
+        "imgurl":"images/logisure.png"
       },
       {
         "name":"Skoolnet",
-        "description":`developed screens using react-native for IOS/Android
+        "description":`developed UI using ReactJS, Redux.
         Tracked and solved tickets for defects on bug reporting tool (JIRA)
-        Tools: React Native`,
+        Tools: ReactJS, Material UI`,
         "imgurl":"images/skoolnet.jpg"
-      },
-      {
-        "name":"Dawaadost",
-        "description":`created a vendor App for IOS/Android using react native
-        developed and deployed the frontend and backend of the website
-        Tools: Reactjs,Nodejs,Expressjs,reduxjs,Postgresql,HTML5,CSS3,Nginx,Ant Design`,  
-        "imgurl":"images/medicine.jpg"
-      },
-      {
-        "name":"Mai web",
-        "description":`created pixel perfect responsive Web pages for provided screens
-        using Reactjs
-        Consumed RESTful api for rendering data using Axios
-        Tools: Reactjs,reduxjs,HTML5,CSS3`,
-        "imgurl":"images/parenting.jpg"
       }
     ],
   }
