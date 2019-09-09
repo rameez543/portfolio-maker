@@ -22,9 +22,10 @@ let resumeData = {
           "className":"fa fa-envelope"
         },
       ],
-    "aboutme":"I am currently working as full stack developer in ceegees software solutions",
+    "aboutme":`I am currently working as full stack developer in ceegees software solutions,enthusiastic 
+                software developer interested to build things.Specialized in javascript tech stack like Reactjs,Nodejs,Expressjs,React Native    `,
     "address":"Bangalore,India",
-    "website":"https://rameez543.github.io",
+    "website":"http://rameez.ml",
     "education":[
       {
         "UniversityName":"Government Engineering college Wayanad",
@@ -41,8 +42,14 @@ let resumeData = {
         "specialization":"Fullstack developer",
         "MonthOfLeaving":"Nov",
         "YearOfLeaving":"2018",
+        "Achievements": ["Created multiple web apps starting with requirements gathering, designing, developing, refactoring, and code implementation",
+                         "Implemented the redesigned user dashboard with better UX and performance using reactjs"  ,
+                          "Designed ,developed and hosted Nodejs,React apps with Nginx",
+                         "Integrated firebase and Aws SNS services",
+                          "Built IOS/Android apps with react-native"   ]
+
       },
-     
+      
     ],
     "skillsDescription":"Your skills here",
     "skills":[

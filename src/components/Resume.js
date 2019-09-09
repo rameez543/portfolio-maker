@@ -26,7 +26,7 @@ export default  class Resume extends Component {
     let resumeData = this.props.resumeData;
     let {color}=this.state
     return (
-      <section id="resume" style={{backgroundColor:color, transition:`${color} 2s ease`}}>
+      <section id="resume" >
 
          
         <div className="row work">
@@ -45,7 +45,12 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
                           <p>
-                          {item.Achievements}
+                          {item.Achievements.map(ite=>{
+                            return(<ul>
+                              <li>{ite}</li>
+                            </ul>)
+                            
+                          })}
                           </p>
                        </div>
 

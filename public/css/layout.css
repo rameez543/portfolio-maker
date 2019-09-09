@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(https://picsum.photos/1920/?grayscale&blur=2) no-repeat top center;
+   background: #161415 url(../images/bg.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
