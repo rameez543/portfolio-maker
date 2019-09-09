@@ -1,9 +1,32 @@
 import React, { Component } from 'react';
+const colors=['#F2F2F2','#F0ECEC','#8B8989','#BF6666','#F2C6C6','#F4A3A3','#D0CBCA','#F4F3F0','#F8F8E6']
 export default  class Resume extends Component {
+  constructor(props){
+    super(props)
+    this.state={color:'',
+                prevPos:window.pageYOffset    }
+  }
+  getColor(){
+    const pos=Math.floor(Math.random() * colors.length)
+    return  colors[pos]
+  }
+  handleScroll=()=>{
+  const {prevPos}=this.state 
+  const currentPos=window.pageYOffset
+    if(Math.abs(currentPos-prevPos)>30){
+      const color=this.getColor()
+      this.setState({prevPos:currentPos,color:color})
+    }
+
+  }
+  componentDidMount(){
+    window.addEventListener('scroll',this.handleScroll)
+  }
   render() {
     let resumeData = this.props.resumeData;
+    let {color}=this.state
     return (
-      <section id="resume">
+      <section id="resume" style={{backgroundColor:color, transition:`${color} 2s ease`}}>
 
          
         <div className="row work">
