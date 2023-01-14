@@ -240,6 +240,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
+   transition-duration: 500ms;
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
