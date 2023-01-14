@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-const colors=['#F2F2F2','#F0ECEC','#8B8989','#BF6666','#F2C6C6','#F4A3A3','#D0CBCA','#F4F3F0','#F8F8E6']
+const colors = ['#FFFFFF', '#f7a6a8', '#eba6f7', '#bda6f7', '#a6b9f7', '#a6f2f7', '#a6f7cc', '#b5f7a6', '#f7f3a6', '#f7d4a6']
 export default  class Resume extends Component {
   constructor(props){
     super(props)
@@ -7,7 +7,7 @@ export default  class Resume extends Component {
                 prevPos:window.pageYOffset    }
   }
   getColor(){
-    const pos=Math.floor(Math.random() * colors.length)
+    const pos = colors.indexOf(this.state.color) + 1 < colors.length - 1 ? colors.indexOf(this.state.color) + 1 : 0
     return  colors[pos]
   }
   handleScroll=()=>{
@@ -26,7 +26,7 @@ export default  class Resume extends Component {
     let resumeData = this.props.resumeData;
     let {color}=this.state
     return (
-      <section id="resume" >
+      <section id="resume" style={{background: color}}>
 
          
         <div className="row work">
